@@ -13,6 +13,9 @@
 		FCD2587827CED9E90021E664 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD2587627CED9E90021E664 /* Main.storyboard */; };
 		FCD2587A27CED9EB0021E664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCD2587927CED9EB0021E664 /* Assets.xcassets */; };
 		FCD2587D27CED9EB0021E664 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD2587B27CED9EB0021E664 /* LaunchScreen.storyboard */; };
+		FCD2588527CEFBE40021E664 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD2588427CEFBE40021E664 /* Constants.swift */; };
+		FCD2588727CEFE8C0021E664 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD2588627CEFE8C0021E664 /* Video.swift */; };
+		FCD2588927CF00E50021E664 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD2588827CF00E50021E664 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		FCD2587927CED9EB0021E664 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCD2587C27CED9EB0021E664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCD2587E27CED9EB0021E664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCD2588427CEFBE40021E664 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FCD2588627CEFE8C0021E664 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		FCD2588827CF00E50021E664 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				FCD2587927CED9EB0021E664 /* Assets.xcassets */,
 				FCD2587B27CED9EB0021E664 /* LaunchScreen.storyboard */,
 				FCD2587E27CED9EB0021E664 /* Info.plist */,
+				FCD2588427CEFBE40021E664 /* Constants.swift */,
+				FCD2588627CEFE8C0021E664 /* Video.swift */,
+				FCD2588827CF00E50021E664 /* Model.swift */,
 			);
 			path = "Youtube-IOS";
 			sourceTree = "<group>";
@@ -141,6 +150,9 @@
 				FCD2587527CED9E90021E664 /* ViewController.swift in Sources */,
 				FCD2587127CED9E90021E664 /* AppDelegate.swift in Sources */,
 				FCD2587327CED9E90021E664 /* SceneDelegate.swift in Sources */,
+				FCD2588927CF00E50021E664 /* Model.swift in Sources */,
+				FCD2588527CEFBE40021E664 /* Constants.swift in Sources */,
+				FCD2588727CEFE8C0021E664 /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
