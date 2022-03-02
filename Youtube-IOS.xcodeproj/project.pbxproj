@@ -66,14 +66,14 @@
 			children = (
 				FCD2587027CED9E90021E664 /* AppDelegate.swift */,
 				FCD2587227CED9E90021E664 /* SceneDelegate.swift */,
-				FCD2587427CED9E90021E664 /* ViewController.swift */,
 				FCD2587627CED9E90021E664 /* Main.storyboard */,
 				FCD2587927CED9EB0021E664 /* Assets.xcassets */,
 				FCD2587B27CED9EB0021E664 /* LaunchScreen.storyboard */,
+				FCD2587427CED9E90021E664 /* ViewController.swift */,
 				FCD2587E27CED9EB0021E664 /* Info.plist */,
+				FCD2588827CF00E50021E664 /* Model.swift */,
 				FCD2588427CEFBE40021E664 /* Constants.swift */,
 				FCD2588627CEFE8C0021E664 /* Video.swift */,
-				FCD2588827CF00E50021E664 /* Model.swift */,
 				FCD2588A27CF423B0021E664 /* Response.swift */,
 			);
 			path = "Youtube-IOS";
