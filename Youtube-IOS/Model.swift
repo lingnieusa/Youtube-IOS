@@ -24,8 +24,31 @@ class Model{
             if error != nil || data == nil {
                 return
             }
-            print(url)
+            
             // Parsing the data into video objects
+            
+            do {
+                
+                // Parsing the data into video objects
+                let decoder = JSONDecoder()
+                decoder.dateDecodingStrategy = .iso8601
+                
+                let response = try decoder.decode(Response.self, from: data!)
+                
+//                if response.items != nil {
+//
+//                    DispatchQueue.main.async {
+//
+//                        // Call the "videosFetched" method of the delegate
+//                        self.delegate?.videosFetched(response.items!)
+//                    }
+//                }
+                
+                 dump(response)
+            }
+            catch {
+                
+            }
         }
         // Kick off the täsk
         dataTask.resume()
