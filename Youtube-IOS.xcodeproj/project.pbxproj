@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FC46C82E27D026D7008B5D03 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC46C82D27D026D7008B5D03 /* CacheManager.swift */; };
+		FC46C83027D02C56008B5D03 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC46C82F27D02C56008B5D03 /* DetailViewController.swift */; };
 		FCD2587127CED9E90021E664 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD2587027CED9E90021E664 /* AppDelegate.swift */; };
 		FCD2587327CED9E90021E664 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD2587227CED9E90021E664 /* SceneDelegate.swift */; };
 		FCD2587527CED9E90021E664 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD2587427CED9E90021E664 /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		FC46C82D27D026D7008B5D03 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		FC46C82F27D02C56008B5D03 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		FCD2586D27CED9E90021E664 /* Youtube-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Youtube-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCD2587027CED9E90021E664 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCD2587227CED9E90021E664 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				FCD2587427CED9E90021E664 /* ViewController.swift */,
+				FC46C82F27D02C56008B5D03 /* DetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				FCD2588927CF00E50021E664 /* Model.swift in Sources */,
 				FCD2588527CEFBE40021E664 /* Constants.swift in Sources */,
 				FCD2588F27D0013D0021E664 /* VideoTableViewCell.swift in Sources */,
+				FC46C83027D02C56008B5D03 /* DetailViewController.swift in Sources */,
 				FCD2588727CEFE8C0021E664 /* Video.swift in Sources */,
 				FCD2588B27CF423B0021E664 /* Response.swift in Sources */,
 			);
